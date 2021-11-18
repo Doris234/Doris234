@@ -19,7 +19,7 @@ Class Weapon Example **Weapon class HERE** A weapon has stats of its own.
 These stats will be generated using a config file (discussed later or in class), but for now when assigning a weapon to a character, it needs to have its own base attack value and it shouldn't be exactly the same for every weapon of the same type. 
 So below I am creating ranges of base attack values to give to each weapon type. 
 I am pulling these out of thin air, so we may change these (as a class) over the next week or so. 
-- Fists & Feet have a base attack of: 1.d.4 OR 1.d.6 Sword 1.d.12 OR 2.d.6 OR 3.d.4 Bow 1.d.8 OR 2.d.4 OR 1.d.10 Dagger Magic Spell 1.d.20 OR 2.d.10 OR 3.d.6 OR 5.d.4- 
+Fists & Feet have a base attack of: 1.d.4 OR 1.d.6 Sword 1.d.12 OR 2.d.6 OR 3.d.4 Bow 1.d.8 OR 2.d.4 OR 1.d.10 Dagger Magic Spell 1.d.20 OR 2.d.10 OR 3.d.6 OR 5.d.4- 
 Magic Weapon Add 1.d.4 OR 1.d.6 to primary weapon Fire Weapon Add 1.d.6 OR 1.d.8 to primary weapon BaseFighter subClasses Example Fighter class HERE Base Character Warrior: Uses a sword as a weapon Wizard: Uses magic as a weapon Archer: Uses a bow as a weapon Elf: Uses magic + a sword as their weapons DragonBorn: Uses magic + fire as a weapon Rules 
 There are a few other odd rules that I will list here: Attacking force can be any size from a few to thousands. 
 Defending force can have 1 of each character type for every 100 attackers. 
